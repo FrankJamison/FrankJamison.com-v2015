@@ -1,4 +1,4 @@
-# Frank Jamison — 2015 Portfolio Site
+# FrankJamison.com v2015 Portfolio Site
 
 Static portfolio site built with plain HTML/CSS/JS (Bootstrap + jQuery). No build step, no framework tooling — just static files that can be hosted anywhere.
 
