@@ -1,37 +1,25 @@
-# FrankJamison.com v2015 Portfolio Site
+# FrankJamison.com v2015
 
-Static portfolio site built with plain HTML/CSS/JS (Bootstrap + jQuery). No build step, no framework tooling — just static files that can be hosted anywhere.
+Static portfolio site (2015) built with plain HTML/CSS/JS (Bootstrap + jQuery). No build step.
 
-## Who this is for
+## URLs
 
-- **Recruiters & employers:** what the site is, what it demonstrates, and how to view it.
-- **Developers:** how to run it locally, customize content/theme, and understand the layout/design structure.
+- Live preview: https://frankjamison2015.fcjamison.com/
+- Local vhost (this workspace’s VS Code task): http://frankjamisoncomv2015.localhost/
 
-## Recruiter / employer overview
+If your local vhost uses a different hostname, update the URL in `.vscode/tasks.json` (task: **Open in Browser**).
 
-### What this project demonstrates
+### Localhost URL note
 
-- **Responsive layout** using Bootstrap’s grid and section-based structure.
-- **Theming** via swappable “skin” stylesheets under `css/colors/`.
-- **Visual system consistency** (icons, spacing, typography) driven by a primary stylesheet (`css/style.css`).
-- **Practical, deployable static delivery** (no build pipeline; easy hosting and maintenance).
+Older docs for this repo referenced `http://2015frankjamison.localhost/`. The current VS Code task and expected local vhost URL is `http://frankjamisoncomv2015.localhost/`.
 
-### How to view
+## Quick start (local)
 
-- **Local preview (recommended):** serve the folder with any static server (instructions below).
-- **Workspace preview URL:** this repo is commonly previewed at `http://2015frankjamison.localhost/` (if your machine has that vhost configured).
+### Option A: VS Code task (vhost)
 
-## Developer quick start (local)
+Run the VS Code task:
 
-### Option A: serve via your local vhost (if configured)
-
-This workspace is commonly previewed at:
-
-- `http://2015frankjamison.localhost/`
-
-In VS Code you can run the task:
-
-- **Open in Browser** (starts Chrome at the URL above)
+- **Open in Browser** (starts Chrome at `http://frankjamisoncomv2015.localhost/`)
 
 ### Option B: any static server
 
@@ -41,6 +29,11 @@ Serving files (rather than opening `index.html` via `file://`) avoids browser re
 - Node: `npx serve .`
 
 Then open `http://127.0.0.1:8000/` (or whatever URL your server prints).
+
+## What changed recently
+
+- HTML page title set to `FrankJamison.com v2015` in `index.html`.
+- README updated to use the current localhost URL (`frankjamisoncomv2015.localhost`) and to include the live preview URL.
 
 ## Tech stack
 
